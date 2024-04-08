@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    width: 375px;
+    height: 1817px;
+    gap: 10px;
+}
+
+.container .pintura{
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+
+.container .pintura .description{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.container .pintura .description .title{
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.container .pintura .description .subtitle{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
